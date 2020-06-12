@@ -15,12 +15,16 @@ npm install --save @daaveuk/react-spinning
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from '@daaveuk/react-spinning'
+import { Spinning } from '@daaveuk/react-spinning'
 import '@daaveuk/react-spinning/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <Spinning>
+        <MyComponent />
+      </Spinning>
+    )
   }
 }
 ```

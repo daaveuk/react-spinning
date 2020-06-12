@@ -1,10 +1,5 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import { Spinning } from './components/Spinning'
 
-interface Props {
-  text: string
-}
+export { Spinning }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export default { Spinning }
